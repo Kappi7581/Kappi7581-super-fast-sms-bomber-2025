@@ -18,16 +18,16 @@ while 1:
     print(f"""{Fore.LIGHTCYAN_EX}
     ╔═════════════════════════════════════════════════════╗
     ║  {Fore.LIGHTMAGENTA_EX}█████████████████████████████████████████████{Fore.LIGHTCYAN_EX}      ║
-    ║  {Fore.YELLOW}Kappi7581 Fast Sms Bomber 2025{Fore.LIGHTCYAN_EX}                          ║
-    ║  {Fore.GREEN}Bu Sms Bomber Çok Güçlüdür.{Fore.LIGHTCYAN_EX} ║
-    ║  {Fore.RED}Egitim amaçlı yapılmıştır sorumluluk almıyoruz.{Fore.LIGHTCYAN_EX}           ║
-    ║  {Fore.CYAN}Developer By Kappi7581{Fore.LIGHTCYAN_EX}                                     ║
+    ║  {Fore.YELLOW}Kappi7581 Fast Sms Bomber 2025{Fore.LIGHTCYAN_EX}                                      ║
+    ║  {Fore.GREEN}Bu Sms Bomber Çok Güçlüdür.{Fore.LIGHTCYAN_EX}                                          ║
+    ║  {Fore.RED}Egitim amaçlı yapılmıştır sorumluluk almıyoruz.{Fore.LIGHTCYAN_EX}                        ║
+    ║  {Fore.CYAN}Developer By Kappi7581{Fore.LIGHTCYAN_EX}                                                ║
     ║  {Fore.LIGHTMAGENTA_EX}█████████████████████████████████████████████{Fore.LIGHTCYAN_EX}      ║
     ╚═════════════════════════════════════════════════════╝
     {Style.RESET_ALL}""")
 
     try:
-        menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder (Normal Mod)\n\n 2- SMS Gönder (☠️ Ölümcül Mod)\n\n 3- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
+        menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder (Normal Mod)\n\n 2- SMS Gönder (Ölümcül Mod)\n\n 3- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
         if menu == "":
             continue
         menu = int(menu) 
